@@ -7,6 +7,7 @@ public class PuzzleJavaTest {
 		
         PuzzleJava generator = new PuzzleJava();
 
+		System.out.println();
         System.out.println("----- 10 Random Numbers between 1 and 20 -----");
 		ArrayList<Integer> randomRolls = generator.getTenRolls();
 		System.out.println(randomRolls);
